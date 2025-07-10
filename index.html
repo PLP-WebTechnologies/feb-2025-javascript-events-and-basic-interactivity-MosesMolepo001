@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎉 JavaScript Event Playground</h1>
+  </header>
+
+  <!-- Event Buttons -->
+  <section>
+    <button id="colorBtn">Click Me to Change Color</button>
+    <button id="secretBtn">Double Click Me 👀</button>
+    <div id="hoverBox">Hover over me</div>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+  </section>
+
+  <!-- Image Gallery -->
+  <section>
+    <h2>🖼️ Image Gallery</h2>
+        <img id="galleryImage" src="" alt="Gallery Image" />
+        <button id="nextImageBtn">Next</button>
+  </section>
+
+<section>
+
+  <!-- Accordion -->  
+  <h2>📂 Accordion</h2>
+
+  <div class="accordion">
+    <button class="accordion-btn">Toggle Content</button>
+    <div class="accordion-content">
+      <p>You found the hidden content.</p>
+    </div>
+  </div>
+
+  <div class="accordion">
+    <button class="accordion-btn">Another Section</button>
+    <div class="accordion-content">
+      <p>You found more content.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Form Validation -->
+  <section>
+    <h2>📝 Form</h2>
+    <form id="userForm">
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <button type="submit">Submit</button>
+      <div id="feedback"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
